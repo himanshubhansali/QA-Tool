@@ -11,7 +11,7 @@ This is a simple web-based **Question Answering (Q&A) Tool** that allows users t
 
 ## Requirements
 
-To run this project locally, you need to have **Python 3.8 or above** installed. You also need the following dependencies:
+To run this project locally, you need to have **Python 3.8 or above** (python 3.11.11) installed. You also need the following dependencies:
 
 - **Flask**
 - **BeautifulSoup**
@@ -26,3 +26,18 @@ To run this project locally, you need to have **Python 3.8 or above** installed.
 ```bash
 git clone https://github.com/yourusername/qa-tool.git
 cd qa-tool
+```
+
+### 2. Install all the packages from Requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the app.py file
+
+```bash
+python app.py
+```
+
+### 4. Head to the localhost:5000 and upload your pdf and ask the question
